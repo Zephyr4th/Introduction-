@@ -1,0 +1,477 @@
+body {
+  background: rgb(69, 69, 69);
+  margin: 0;
+  height: 50svh;
+  width: auto;
+}
+.main {
+  background: rgb(69, 69, 69);
+  width: 100%;
+  height: 105px;
+  overflow: hidden;
+  box-shadow: 0 0 7px black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.text {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  }
+.text p {
+  font-size: 27px;
+  color: white;
+}
+.slider {
+  overflow-x: scroll;
+}
+.flexbox-container {
+  display: flex;
+  height: 30svh;
+  width: max-content;
+  }
+.flexbox {
+  background: rgb(247, 197, 159);
+  width: 20svh;
+  padding-top: 1.8svh;
+}
+.ftext {
+  color: white;
+  padding-left: 3svh;
+  font-weight: bold;
+  font-size: 2.8svh;
+}
+.flexbox2 {
+  background: rgb(201, 137, 134);
+  width: 20svh;
+  padding-top: 1.8svh;
+}
+.ftext2 {
+  color: white;
+  padding-left: 3svh;
+  font-weight: bold;
+  font-size: 2.8svh;
+}
+.flexbox3 {
+  background: rgb(186, 205, 176);
+  width: 20svh;
+  padding-top: 1.8svh;
+}
+.ftext3 {
+  color: white;
+  padding-left: 7svh;
+  font-weight: bold;
+  font-size: 2.8svh;
+}
+.flexbox4 {
+  background: rgb(114, 155, 121);
+  width: 20svh;
+  padding-top: 1.8svh;
+}
+.ftext4 {
+  color: white;
+  padding-left: 7.5svh;
+  font-weight: bold;
+  font-size: 2.8svh;
+}
+.flexbox5 {
+  background: rgb(213, 197, 200);
+  width: 20svh;
+  padding-top: 1.8svh;
+}
+.ftext5 {
+  color: white;
+  padding-left: 7.5svh;
+  font-weight: bold;
+  font-size: 2.8svh;
+}
+.item {
+  margin-top: 10svh;
+  margin-left: -1px;
+}
+.frontitem {
+  width: 63.8svh;
+  height: 100%;
+  border: 1px solid grey;
+  border-top-left-radius: 25% 30%;
+}
+.supdiv {
+  background: rgb(138, 121, 104);
+  width: 100%;
+  height: 34svh;
+  position: absolute;
+  top: 59svh;
+}
+.text2 {
+  margin-top: 5svh;
+  margin-left: 6svh;
+  margin-right: 5svh;
+}
+.text2 p {
+  color: white;
+  font-size: 19.5px;
+  line-height: 29px;
+}
+.cardback {
+  background: whitesmoke;
+  height: 90svh;
+  width: 63.7svh;
+}
+.card {
+  background: rgb(138, 121, 104);
+  height: 50svh;
+  width: 75%;
+  position: relative;
+  top: 25svh;
+  left: 4svh;
+  padding: 4svh;
+  box-shadow: 0 0 3px black;
+}
+.title {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.content ul {
+  color: white;
+  font-size: 20px;
+  list-style-type: none;
+  padding-left: 0svh;
+  width: 47svh; 
+  line-height: 40px;
+} 
+li {
+  list-style-type: none;
+}
+.background {
+  background: rgb(69, 69, 69);
+  height: 20svh;
+  margin-top: -2svh;
+}
+.btext {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 14svh;
+}
+.btext2 {
+  color: white;
+  position: absolute;
+  top: 168svh;
+  left: 33svh;
+}
+.background hr{
+  margin-top: 0svh;
+  margin-left: -1svh;
+  width: 53svh;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    width: 54.2svh;
+  }
+  .flexbox {
+    margin-top: -0.8svh;
+  }
+  .ftext {
+    font-size: 2.5svh;
+    margin-left: -1.8svh;
+  }
+  .flexbox2 {
+    margin-top: -0.8svh;
+  }
+  .ftext2 {
+    font-size: 2.5svh;
+    margin-left: -1.8svh;
+  }
+  .flexbox3 {
+    margin-top: -0.8svh;
+  }
+  .ftext3 {
+    font-size: 2.5svh;
+    margin-left: 0svh;
+  }
+  .flexbox4 {
+    margin-top: -0.8svh;
+  }
+  .ftext4 {
+    font-size: 2.5svh;
+    margin-left: 0svh;
+  }
+  .flexbox5 {
+    margin-top: -0.8svh;
+  }
+  .ftext5 {
+    font-size: 2.5svh;
+    margin-left: 0svh;
+  }
+  .supdiv {
+    height: 37svh;
+    position: absolute;
+    top: 52svh;
+    width: 54.2svh;
+  }
+  .text2 {
+    margin-top: 3svh;
+    margin-left: 4svh;
+  }
+  .content ul {
+    width: 40svh;
+  }
+  .item {
+    width: 54.2svh;
+    overflow-x: hidden;
+  }
+  .frontitem {
+    width: 54.2svh;
+  }
+  .cardback {
+    height: 88svh;
+    width: 54.1svh;
+  }
+  .card {
+    height: 40svh;
+    margin-top: 7svh;
+    margin-left: -1.5svh;
+  }
+  .background {
+    margin-top: -3svh;
+    width: 54.2svh;
+  }
+  .background hr {
+    width: 46svh;
+    position: absolute;
+    top: 169svh;
+  }
+  .btext {
+    position: absolute;
+    top: 157svh;
+    left: 0svh;
+  }
+  .btext2 {
+    position: absolute;
+    top: 162.3svh;
+    left: 29.5svh;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  body {
+    width: 90svh;
+  }
+  .main {
+    height: 14svh;
+  }
+  .text {
+    margin-top: -2svh;
+    margin-left: -15svh;
+  }
+  .text p {
+    font-size: 4svh;
+  }
+  .slider {
+    width: 90svh;
+    height: 6svh;
+    margin-top: -2svh;
+  }
+  .flexbox {
+    margin-top: -0.8svh;
+  }
+  .ftext {
+    font-size: 2.5svh;
+    margin-left: -1.8svh;
+  }
+  .flexbox2 {
+    margin-top: -0.8svh;
+  }
+  .ftext2 {
+    font-size: 2.5svh;
+    margin-left: -1.8svh;
+  }
+  .flexbox3 {
+    margin-top: -0.8svh;
+  }
+  .ftext3 {
+    font-size: 2.5svh;
+    margin-left: 0svh;
+  }
+  .flexbox4 {
+    margin-top: -0.8svh;
+  }
+  .ftext4 {
+    font-size: 2.5svh;
+    margin-left: 0svh;
+  }
+  .flexbox5 {
+    margin-top: -0.8svh;
+  }
+  .ftext5 {
+    font-size: 2.5svh;
+    margin-left: 0svh;
+  }
+  .frontitem {
+    width: 60svh;
+    margin-left: 30.5svh;
+  }
+  .supdiv {
+    width: 60svh;
+    margin-top: 11svh;
+    margin-left: 30.5svh;
+    box-shadow: 0 0 1px black; 
+  }
+  .text2 {
+    margin-top: 4svh;
+  }
+  .text2 p{
+    font-size: 2svh;
+    line-height: 4svh;
+  }
+  .cardback {
+    margin-top: -0.3svh;
+    height: 100svh;
+    width: 90svh;
+  }
+  .card {
+    width: 40svh;
+    height: 40svh;
+    position: absolute;
+    top: 108svh;
+  }
+  .title {
+    font-size: 4svh;
+  }
+  .content ul {
+    font-size: 3svh;
+    width: 40svh;
+  }
+  .background {
+    height: 40svh;
+    margin-top: -10svh;
+  }
+  .btext {
+    font-size: 5svh;
+    margin-left: 13svh;
+    padding-top: 2svh;
+  }
+  .btext2 {
+    width: 10svh;
+    font-size: 2svh;
+    margin-left: 19.5svh;
+    margin-top: 2.5svh;
+  }
+  .background hr {
+    width: 90%;
+    margin-left: 3svh;
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 400px) {
+  body {
+    width: 100%;
+  }
+  .text {
+    margin-left: -70svh;
+  }
+  .text p {
+    font-size: 7svh;
+  }
+  .main {
+    width: 100%;
+    height: 28svh;
+  }
+  .slider {
+    margin-top: -2svh;
+    width: 100%;
+    height: 100svh;
+  }
+  .flexbox {
+    width: 60svh;
+    height: 100%;
+    padding-top: 3svh;
+  }
+  .ftext {
+    font-size: 6svh;
+    margin-left: 6svh;
+  }
+  .flexbox2 {
+    width: 60svh;
+    height: 100%;
+    padding-top: 3svh;
+  }
+  .ftext2 {
+    font-size: 6svh;
+    margin-left: 6svh;
+  }
+  .flexbox3 {
+    width: 60svh;
+    height: 100%;
+    padding-top: 3svh;
+  }
+  .ftext3 {
+    font-size: 6svh;
+    margin-left: 15svh;
+  }
+  .flexbox4 {
+    width: 60svh;
+    height: 100%;
+    padding-top: 3svh;
+  }
+  .ftext4 {
+    font-size: 6svh;
+    margin-left: 15svh;
+  }
+  .flexbox5 {
+    width: 60svh;
+    height: 100%;
+    padding-top: 3svh;
+  }
+  .ftext5 {
+    font-size: 6svh;
+    margin-left: 15svh;
+  }
+  .frontitem {
+    width: 150svh;
+    margin-left: 109.5svh;
+  }
+  .supdiv {
+    width: 150svh;
+    height: 80svh;
+    margin-left: 109.5svh;
+    margin-top: 93.5svh;
+  }
+  .text2 p {
+    margin: 6svh;
+    font-size: 5svh;
+    line-height: 10svh;
+  }
+  .cardback {
+    margin-top: -0.5svh;
+    width: 100%;
+    height: 170svh;
+  }
+  .card {
+    width: 80svh;
+    height: 80svh;
+    margin-top: 115svh;
+    margin-left: 8svh;
+  }
+  .title {
+    font-size: 8svh;
+  }
+  .content ul {
+    width: 70svh;
+    font-size: 5svh;
+  }
+  .background {
+    height: 70svh;
+  }
+  .btext {
+    font-size: 10svh;
+    padding-top: 6svh;
+    margin-left: 70svh;
+  }
+  .btext2 {
+    width: 100svh;
+    font-size: 5svh;
+    margin-top: 168.5svh;
+    margin-left: 105svh;
+  }
+}
